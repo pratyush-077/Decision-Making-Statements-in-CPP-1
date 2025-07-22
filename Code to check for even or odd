@@ -1,0 +1,17 @@
+# Code to check for even or odd
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter the given number: ";
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << "The given number is an even number" << endl;
+    } else {
+        cout << "The given number is an odd number" << endl;
+    }
+
+    return 0;
+}
